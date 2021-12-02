@@ -1,0 +1,80 @@
+body {
+  width: 100%;
+}
+
+p {
+  font-size: 18px;
+}
+
+.klicka-har {
+  margin: 30px;
+}
+.wrapper {
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+}
+
+.dropdowns-container {
+  margin: 0 auto;
+  width: 80%;
+  display: grid;
+}
+
+.dropdowns {
+  padding: 10px;
+  display: inline-grid;
+}
+
+.grid-item-1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.grid-item-2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.grid-item-3 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.grid-item-4 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tabletr:hover {
+  background-color: #ddd;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+
+/** Testd **/
